@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: regular;
+  src: url(../src/assets/Tajawal-Regular.ttf);
+}
+@font-face {
+  font-family: tmedium;
+  src: url(../src/assets/Tajawal-Medium.ttf);
+}
+@font-face {
+  font-family: tbold;
+  src: url(../src/assets/Tajawal-Bold.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Tajawal", sans-serif;
+  direction: rtl;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+section .container {
+  margin: 60px auto;
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+.slide-link {
+  position: relative;
+}
+.slide-link::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 1px;
+  background-color: #e6a131;
+  display: none;
+  transition: all 0.3s ease;
+}
+a.active {
+  color: #e6a131;
+}
+.slide-link.active::after {
+  display: block;
+}
+
+.home-vid video {
+  height: calc(100vh - 81px);
+  object-fit: cover;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

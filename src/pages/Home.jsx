@@ -5,6 +5,7 @@ import sec2 from "../assets/sec2.jpeg";
 import sec3 from "../assets/sec3.jpeg";
 import SecCard from "../components/SecCard";
 import ClientsSwiper from "../components/ClientsSwiper";
+import ProjectsSwiper from "../components/ProjectsSwiper";
 const Home = () => {
   return (
     <div>
@@ -21,12 +22,12 @@ const Home = () => {
         ></video>
       </div>
       <section className="my-24">
-        <div className="container flex justify-center items-center max-md:flex-col max-md:gap-6">
+        <div className="container flex justify-center items-center max-md:flex-col gap-6">
           <div className="w-1/2 flex flex-col gap-20 max-md:w-full max-md:gap-8 max-md:px-5">
             <h1 className="max-md:text-center text-6xl font-[tbold] text-[#E6A131]">
               من نحن
             </h1>
-            <p className="text-base font-[regular] text-[#232323]">
+            <p className="text-base font-[regular] text-[#232323] ">
               انطلقت شركة قاذرن من الرياض لنعانق السماء و نعيد صياغة مجال تنظيم
               الفعاليات ومجال اعاشة الطعام محليا و اقليميا
             </p>
@@ -39,7 +40,9 @@ const Home = () => {
             </a>
           </div>
           <div className="w-1/2 max-md:w-full max-md:px-5">
-            <img src={res} alt="" />
+            <div className="rounded-3xl overflow-hidden">
+              <img src={res} alt="" />
+            </div>
           </div>
         </div>
       </section>
@@ -73,6 +76,14 @@ const Home = () => {
             تفتخر بعملائنا
           </h1>
           <ClientsSwiper />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#E6A131] mb-10 ">
+            من اعمالنا
+          </h1>
+          <ProjectsSwiper />
         </div>
       </section>
     </div>

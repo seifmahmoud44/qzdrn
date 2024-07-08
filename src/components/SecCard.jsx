@@ -5,7 +5,9 @@ const SecCard = ({ img, title, goTo }) => {
   const navigate = useNavigate();
   return (
     <div className="w-56 space-y-5 max-md:w-full max-md:px-5">
-      <img className="w-full" src={img} alt="" />
+      <div className="rounded-3xl overflow-hidden">
+        <img className="w-full" src={img} alt="" />
+      </div>
       <h4
         className={`font-[tmedium] ${
           title.length > 20 ? "text-lg" : "text-xl"

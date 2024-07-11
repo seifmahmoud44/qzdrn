@@ -8,11 +8,15 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay } from "swiper/modules";
-
+import { Navigation } from "swiper/modules";
+import arrow from "../assets/next.png";
 export default function RandomSwiper({ data }) {
   return (
     <>
-      <div className="container max-md:px-5">
+      <div className="container max-md:px-5 flex justify-center items-center gap-5">
+        <div className="nex  p-2 rounded-full bg-[#534431] cursor-pointer flex justify-center items-center">
+          <img src={arrow} alt="" className="w-7" />
+        </div>
         <Swiper
           spaceBetween={30}
           autoplay={{
@@ -28,16 +32,18 @@ export default function RandomSwiper({ data }) {
               slidesPerView: 5,
             },
           }}
-          modules={[Autoplay]}
+          navigation={{
+            prevEl: ".prev",
+            nextEl: ".nex",
+          }}
+          modules={[Autoplay, Navigation]}
           className="mySwiper my-10"
         >
           {data.map((word, index) => {
             return (
               <SwiperSlide key={index}>
                 <div
-                  className={`${
-                    data.length === 3 ? "w-1/3" : "w-1/2"
-                  } my-5 flex justify-center items-center h-32`}
+                  className={`my-5 flex justify-center items-center h-32 `}
                   key={index}
                 >
                   <p className="text-center text-[#ef7900] text-2xl font-[tbold]">
@@ -53,6 +59,9 @@ export default function RandomSwiper({ data }) {
             </div>
           </SwiperSlide> */}
         </Swiper>
+        <div className="prev  p-2 rounded-full bg-[#534431] cursor-pointer flex justify-center items-center ">
+          <img src={arrow} alt="" className="w-7 rotate-180" />
+        </div>
       </div>
     </>
   );

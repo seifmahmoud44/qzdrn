@@ -1,8 +1,8 @@
 import res from "../assets/res.jpg";
 import home from "../assets/home.jpeg";
 import sec1 from "../assets/sec1.jpeg";
-import sec2 from "../assets/sec2.jpeg";
-import sec3 from "../assets/sec3.jpeg";
+import sec2 from "../assets/prepare.jpeg";
+import sec3 from "../assets/s6.jpeg";
 import SecCard from "../components/SecCard";
 import ClientsSwiper from "../components/ClientsSwiper";
 import ProjectsSwiper from "../components/ProjectsSwiper";
@@ -14,7 +14,7 @@ const Home = () => {
           <img src={home} className="w-full rounded-3xl" alt="" />
         </div>
         <div className="w-1/2 max-md:w-full">
-          <h1 className=" text-black font-[tbold] text-3xl text-nowrap max-md:text-3xl max-md:text-wrap text-center w-full px-5">
+          <h1 className=" text-[#534431] font-[tbold] text-3xl text-nowrap max-md:text-3xl max-md:text-wrap text-center w-full px-5">
             اجتمع و تألق مع خدماتنا في كل مكان
           </h1>
           <h1 className=" text-[#E6A131] font-[tbold] text-xl mt-3  max-md:text-xl max-md:text-wrap text-center w-full px-5">
@@ -35,7 +35,7 @@ const Home = () => {
       <section className="my-24">
         <div className="container flex justify-center items-center max-md:flex-col gap-6">
           <div className="w-full flex flex-col gap-20  max-md:gap-8 max-md:px-5">
-            <h1 className="max-md:text-center text-6xl m-auto font-[tbold] text-[#E6A131]">
+            <h1 className=" max-md:text-center text-6xl m-auto font-[tbold] text-[#534431]">
               من نحن
             </h1>
             <p className="text-base text-center font-[regular] text-[#232323] ">
@@ -59,7 +59,7 @@ const Home = () => {
       </section>
       <section>
         <div className="container">
-          <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#E6A131] mb-10 ">
+          <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#534431] mb-10 ">
             ما الذي نقدمه
           </h1>
           <div className="flex justify-between items-center max-md:flex-col max-md:gap-10 ">
@@ -83,15 +83,15 @@ const Home = () => {
       </section>
       <section>
         <div className="container">
-          <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#E6A131] mb-10 ">
-            تفتخر بعملائنا
+          <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#534431] mb-10 ">
+            نفتخر بعملائنا
           </h1>
           <ClientsSwiper />
         </div>
       </section>
       <section>
         <div className="container">
-          <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#E6A131] mb-10 ">
+          <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#534431] mb-10 ">
             من اعمالنا
           </h1>
           <ProjectsSwiper />

@@ -9,7 +9,9 @@ const CardBuffet = ({ img, title, dis, w }) => {
         <img src={img} alt="" className=" object-cover  w-full" />
       </div>
       <div className="p-5 space-y-3">
-        <h2 className="text-2xl font-[tmedium] text-center ">{title}</h2>
+        <h2 className="text-2xl font-[tmedium] text-center text-[#534431]">
+          {title}
+        </h2>
         {/* <p className="font-[regular] text-center">{dis}</p> */}
       </div>
       <a

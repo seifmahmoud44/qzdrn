@@ -39,7 +39,7 @@ export default function ProjectsSwiper() {
           <div className="h-80 rounded-3xl overflow-hidden max-md:mx-5 mb-3">
             <img src={pro1} alt="" />
           </div>
-          <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
+          <p className="text-lg text-[#534431] text-center px-2 font-[tmedium]">
             يوم البيئه في المركز الوطني للرقابه على الالتزام البيئي
           </p>
         </SwiperSlide>
@@ -47,7 +47,7 @@ export default function ProjectsSwiper() {
           <div className="h-80 rounded-3xl overflow-hidden max-md:mx-5 mb-3">
             <img src={pro2} alt="" />
           </div>
-          <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
+          <p className="text-lg text-[#534431] text-center px-2 font-[tmedium]">
             اذعه يو اف ام
           </p>
         </SwiperSlide>
@@ -55,7 +55,7 @@ export default function ProjectsSwiper() {
           <div className="h-80 rounded-3xl overflow-hidden max-md:mx-5 mb-3">
             <img src={pro3} alt="" />
           </div>
-          <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
+          <p className="text-lg text-[#534431] text-center px-2 font-[tmedium]">
             يوم التأسيس
           </p>
         </SwiperSlide>
@@ -63,7 +63,7 @@ export default function ProjectsSwiper() {
           <div className="h-80 rounded-3xl overflow-hidden max-md:mx-5 mb-3">
             <img src={pro4} alt="" />
           </div>
-          <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
+          <p className="text-lg text-[#534431] text-center px-2 font-[tmedium]">
             يوم العلم التابع لوزارة الاعلام
           </p>
         </SwiperSlide>
@@ -71,7 +71,7 @@ export default function ProjectsSwiper() {
           <div className="h-80 rounded-3xl overflow-hidden max-md:mx-5 mb-3">
             <img src={pro5} alt="" />
           </div>
-          <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
+          <p className="text-lg text-[#534431] text-center px-2 font-[tmedium]">
             جامعة الاميرة نورة{" "}
           </p>
         </SwiperSlide>

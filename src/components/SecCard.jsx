@@ -5,13 +5,13 @@ const SecCard = ({ img, title, goTo }) => {
   const navigate = useNavigate();
   return (
     <div className="w-56 space-y-5 max-md:w-full max-md:px-5">
-      <div className="rounded-3xl overflow-hidden">
-        <img className="w-full" src={img} alt="" />
+      <div className="rounded-3xl h-40 max-md:h-auto overflow-hidden">
+        <img className="w-full object-cover" src={img} alt="" />
       </div>
       <h4
         className={`font-[tmedium] ${
           title.length > 20 ? "text-lg" : "text-xl"
-        }  text-[#E6A131] text-center text-nowrap `}
+        }  text-[#534431] text-center text-nowrap `}
       >
         {title}
       </h4>

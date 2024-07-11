@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div>
       <section className="my-10">
-        <h1 className="text-4xl w-fit m-auto font-[tbold] text-[#E6A131] mb-5 max-md:text-2xl">
+        <h1 className="text-4xl w-fit m-auto font-[tbold] text-[#534431] mb-5 max-md:text-2xl">
           قسم الاعاشة و البوفيهات
         </h1>
         <div className="container flex justify-between items-center max-md:gap-5 max-md:flex-col ">
@@ -32,7 +32,7 @@ const Services = () => {
         </div>
       </section>
       <section className="my-20">
-        <h1 className="text-4xl w-fit m-auto font-[tbold] text-[#E6A131] mb-5 max-md:text-2xl">
+        <h1 className="text-4xl w-fit m-auto font-[tbold] text-[#534431] mb-5 max-md:text-2xl">
           قسم تجهيز الفعاليات و المناسبات
         </h1>
         <div className=" container flex justify-between items-center max-md:gap-5 max-md:flex-col ">
@@ -59,7 +59,7 @@ const Services = () => {
         </div>
       </section>
       <section className="my-20">
-        <h1 className="text-4xl w-fit m-auto font-[tbold] text-[#E6A131] mb-5 max-md:text-2xl">
+        <h1 className="text-4xl w-fit m-auto font-[tbold] text-[#534431] mb-5 max-md:text-2xl">
           قسم التوريد و التموين
         </h1>
         <div className=" container flex justify-between items-center max-md:gap-5 max-md:flex-col ">

@@ -42,7 +42,7 @@ const Navbar = () => {
             className=" text-base font-[tbold] hover:text-[#E6A131] transition-all cursor-pointer "
             to={"/contactus"}
           >
-            تواصل معنا{" "}
+            قسم التوريد والتمويل
           </NavLink>
         </div>
         <div>

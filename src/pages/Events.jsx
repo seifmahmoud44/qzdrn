@@ -5,7 +5,7 @@ import RandomText from "../components/RandomText";
 const Events = () => {
   return (
     <div className="mt-5">
-      <h1 className="text-4xl w-fit m-auto font-[tbold] text-black mb-5 max-md:text-2xl max-md:text-center">
+      <h1 className="text-4xl w-fit m-auto font-[tbold] text-[#534431] mb-5 max-md:text-2xl max-md:text-center">
         نحن نعيد صياغة الفعاليات و المؤتمرات و المناسبات بأفكارنا الجديده
       </h1>
       <div className="my-10">

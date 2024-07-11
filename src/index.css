@@ -88,3 +88,17 @@ a.active {
 .pro-swipe .swiper-slide {
   height: 388px;
 }
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white;
+  background-color: red;
+  padding: 10px 16px;
+  font-size: 28px !important;
+  border-radius: 50%;
+}
+
+@media (min-width: 767px) {
+  .swiper-button-prev::after {
+    transform: translateX(100px);
+  }
+}

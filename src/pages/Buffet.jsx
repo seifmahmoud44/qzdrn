@@ -1,12 +1,13 @@
 import CardBuffet from "../components/CardBuffet";
 
-import card2 from "../assets/card2.jpeg";
+import card2 from "../assets/home.jpeg";
 import card3 from "../assets/card3.jpeg";
 import silver from "../assets/silver.jpeg";
 import gold from "../assets/gold.jpeg";
-import vip from "../assets/vip2.jpeg";
+import vip from "../assets/vip.jpeg";
 import west from "../assets/west.jpeg";
 import east from "../assets/east.jpeg";
+import pro2 from "../assets/pro2.jpeg";
 
 const Buffet = () => {
   return (
@@ -62,7 +63,7 @@ const Buffet = () => {
           />
           <CardBuffet
             w={"w-1/4"}
-            img={card3}
+            img={vip}
             title={"قائمة vip"}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"
@@ -70,7 +71,7 @@ const Buffet = () => {
           />
           <CardBuffet
             w={"w-1/4"}
-            img={card3}
+            img={pro2}
             title={"قائمة الاجتماعات"}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"

@@ -1,6 +1,6 @@
 import res from "../assets/res.jpg";
 import home from "../assets/home.jpeg";
-import sec1 from "../assets/sec1.jpeg";
+import sec1 from "../assets/edit.jpeg";
 import sec2 from "../assets/prepare.jpeg";
 import sec3 from "../assets/s6.jpeg";
 import SecCard from "../components/SecCard";

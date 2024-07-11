@@ -1,6 +1,6 @@
-import sec1 from "../assets/sec1.jpeg";
-import sec2 from "../assets/sec3.jpeg";
-import sec3 from "../assets/suplly.jpeg";
+import sec1 from "../assets/sec2.jpeg";
+import sec2 from "../assets/s2.jpeg";
+import sec3 from "../assets/s6.jpeg";
 const Services = () => {
   return (
     <div>

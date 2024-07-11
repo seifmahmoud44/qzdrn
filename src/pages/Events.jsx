@@ -1,4 +1,5 @@
 import GallarySwiper from "../components/GallarySwiper";
+import RandomSwiper from "../components/RandomSwiper";
 import RandomText from "../components/RandomText";
 
 const Events = () => {
@@ -21,11 +22,23 @@ const Events = () => {
         </p>
       </div>
       <div className="container">
-        <RandomText data={["خيم اوروبيه و شعبيه", "تصوير", "فعاليات غنائيه"]} />
-        <RandomText data={["طباعه لوح و جداريات", "بوثات"]} />
-        <RandomText data={["صوتيات", "شاشات", "سيارات فارهه"]} />
-        <RandomText data={["جلسات شعبيه", "عربات طعام و قهوه و ايسكريم"]} />
-        <RandomText data={["تحضيرات", "تزيين مكان الفعاليه", "توزيعات"]} />
+        <RandomSwiper
+          data={[
+            "خيم اوروبيه و شعبيه",
+            "تصوير",
+            "فعاليات غنائيه",
+            "طباعه لوح و جداريات",
+            "بوثات",
+            "صوتيات",
+            "شاشات",
+            "سيارات فارهه",
+            "جلسات شعبيه",
+            "عربات طعام و قهوه و ايسكريم",
+            "تحضيرات",
+            "تزيين مكان الفعاليه",
+            "توزيعات",
+          ]}
+        />
       </div>
       <GallarySwiper />
     </div>

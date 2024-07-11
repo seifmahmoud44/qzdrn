@@ -45,6 +45,13 @@ const SlideMenu = ({ setOpen, open }) => {
         >
           تنظيم الفاعليات والمناسبات
         </NavLink>
+        <NavLink
+          onClick={() => setOpen(false)}
+          className=" text-white slide-link block py-3  text-xl font-[tmedium] hover:text-[#808080] transition-all cursor-pointer "
+          to={"/contactus"}
+        >
+          تواصل معنا{" "}
+        </NavLink>
       </div>
       <div className="h-auto w-fit m-auto">
         <a href="https://wa.me/0545719374" className="" target="_blank">

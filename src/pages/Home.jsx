@@ -1,5 +1,5 @@
 import res from "../assets/res.jpg";
-import video from "../assets/video.mp4";
+import home from "../assets/home.jpeg";
 import sec1 from "../assets/sec1.jpeg";
 import sec2 from "../assets/sec2.jpeg";
 import sec3 from "../assets/sec3.jpeg";
@@ -9,41 +9,52 @@ import ProjectsSwiper from "../components/ProjectsSwiper";
 const Home = () => {
   return (
     <div>
-      <div className="home-vid relative">
-        <h1 className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-white font-[tbold] text-5xl text-nowrap max-md:text-3xl max-md:text-wrap text-center w-full px-5">
-          اجتمع و تألق مع خدماتنا في كل مكان
-        </h1>
-        <video
+      <div className="home-vid flex justify-center items-center max-md:flex-col">
+        <div className="w-1/2 max-md:w-full   relative  my-10 px-5">
+          <img src={home} className="w-full rounded-3xl" alt="" />
+        </div>
+        <div className="w-1/2 max-md:w-full">
+          <h1 className=" text-black font-[tbold] text-3xl text-nowrap max-md:text-3xl max-md:text-wrap text-center w-full px-5">
+            اجتمع و تألق مع خدماتنا في كل مكان
+          </h1>
+          <h1 className=" text-[#E6A131] font-[tbold] text-xl mt-3  max-md:text-xl max-md:text-wrap text-center w-full px-5">
+            انطلقت شركة قاذرن من الرياض لنعانق السماء ونعيد صياغة مجال تنظيم
+            الفعاليات ومجال اعاشة الطعام والبوفيهات محليا و اقليميا بالجوده و
+            الابتكار.
+          </h1>
+        </div>
+
+        {/* <video
           className="brightness-50"
           src={video}
           autoPlay
           muted
           loop
-        ></video>
+        ></video> */}
       </div>
       <section className="my-24">
         <div className="container flex justify-center items-center max-md:flex-col gap-6">
-          <div className="w-1/2 flex flex-col gap-20 max-md:w-full max-md:gap-8 max-md:px-5">
-            <h1 className="max-md:text-center text-6xl font-[tbold] text-[#E6A131]">
+          <div className="w-full flex flex-col gap-20  max-md:gap-8 max-md:px-5">
+            <h1 className="max-md:text-center text-6xl m-auto font-[tbold] text-[#E6A131]">
               من نحن
             </h1>
-            <p className="text-base font-[regular] text-[#232323] ">
+            <p className="text-base text-center font-[regular] text-[#232323] ">
               انطلقت شركة قاذرن من الرياض لنعانق السماء و نعيد صياغة مجال تنظيم
               الفعاليات ومجال اعاشة الطعام محليا و اقليميا
             </p>
             <a
               href="https://wa.me/0545719374"
-              className="px-7 py-2 font-[tmedium] max-md:m-auto text-sm rounded-full text-white bg-[#E6A131] w-fit"
+              className="block m-auto px-7 py-2 font-[tmedium] max-md:m-auto text-sm rounded-full text-white bg-[#E6A131] w-fit"
               target="_blank"
             >
               تواصل معنا
             </a>
           </div>
-          <div className="w-1/2 max-md:w-full max-md:px-5">
+          {/* <div className="w-1/2 max-md:w-full max-md:px-5">
             <div className="rounded-3xl overflow-hidden">
               <img src={res} alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <section>

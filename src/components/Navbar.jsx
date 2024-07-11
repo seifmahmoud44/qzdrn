@@ -38,6 +38,12 @@ const Navbar = () => {
           >
             تنظيم الفاعليات والمناسبات
           </NavLink>
+          <NavLink
+            className=" text-base font-[tbold] hover:text-[#E6A131] transition-all cursor-pointer "
+            to={"/contactus"}
+          >
+            تواصل معنا{" "}
+          </NavLink>
         </div>
         <div>
           <a

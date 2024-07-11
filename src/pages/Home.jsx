@@ -32,7 +32,7 @@ const Home = () => {
           loop
         ></video> */}
       </div>
-      <section className="my-24">
+      {/* <section className="my-24">
         <div className="container flex justify-center items-center max-md:flex-col gap-6">
           <div className="w-full flex flex-col gap-20  max-md:gap-8 max-md:px-5">
             <h1 className=" max-md:text-center text-6xl m-auto font-[tbold] text-[#534431]">
@@ -50,13 +50,9 @@ const Home = () => {
               تواصل معنا
             </a>
           </div>
-          {/* <div className="w-1/2 max-md:w-full max-md:px-5">
-            <div className="rounded-3xl overflow-hidden">
-              <img src={res} alt="" />
-            </div>
-          </div> */}
+
         </div>
-      </section>
+      </section> */}
       <section>
         <div className="container">
           <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#534431] mb-10 ">

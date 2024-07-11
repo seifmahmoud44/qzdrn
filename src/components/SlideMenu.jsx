@@ -43,7 +43,7 @@ const SlideMenu = ({ setOpen, open }) => {
           className=" text-white slide-link block py-3  text-xl font-[tmedium] hover:text-[#808080] transition-all cursor-pointer "
           to={"/events"}
         >
-          تنظيم الفاعليات والمناسبات
+          تنظيم الفعاليات والمناسبات
         </NavLink>
         <NavLink
           onClick={() => setOpen(false)}

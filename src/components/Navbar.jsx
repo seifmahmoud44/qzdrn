@@ -36,7 +36,7 @@ const Navbar = () => {
             className=" text-base font-[tbold] hover:text-[#E6A131] transition-all cursor-pointer "
             to={"/events"}
           >
-            تنظيم الفاعليات والمناسبات
+            تنظيم الفعاليات والمناسبات
           </NavLink>
           <NavLink
             className=" text-base font-[tbold] hover:text-[#E6A131] transition-all cursor-pointer "

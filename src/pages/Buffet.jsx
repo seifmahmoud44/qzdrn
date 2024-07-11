@@ -3,8 +3,9 @@ import CardBuffet from "../components/CardBuffet";
 import card2 from "../assets/home.jpeg";
 import card3 from "../assets/card3.jpeg";
 import silver from "../assets/silver.jpeg";
+import silverEdit from "../assets/silveredit.jpeg";
 import gold from "../assets/gold.jpeg";
-import vip from "../assets/vip.jpeg";
+import vip from "../assets/vip2.jpeg";
 import west from "../assets/west.jpeg";
 import east from "../assets/east.jpeg";
 import pro2 from "../assets/pro2.jpeg";
@@ -18,7 +19,7 @@ const Buffet = () => {
         </h1>
         <div className="container flex justify-between items-center max-md:gap-5 gap-10 max-md:flex-col max-md:px-5">
           <CardBuffet
-            img={silver}
+            img={silverEdit}
             title={"قائمة فضيه"}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"

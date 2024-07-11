@@ -3,7 +3,7 @@ import pro1 from "../assets/pro1.jpeg";
 import pro2 from "../assets/pro2.jpeg";
 import pro3 from "../assets/pro3.jpeg";
 import pro4 from "../assets/pro4.jpeg";
-import pro5 from "../assets/pro5.jpeg";
+import pro5 from "../assets/nora.jpeg";
 import pro6 from "../assets/pro6.jpeg";
 import pro7 from "../assets/pro7.jpeg";
 // Import Swiper styles
@@ -56,7 +56,7 @@ export default function ProjectsSwiper() {
             <img src={pro3} alt="" />
           </div>
           <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
-            اذعه يو اف ام
+            يوم التأسيس
           </p>
         </SwiperSlide>
         <SwiperSlide>
@@ -64,7 +64,7 @@ export default function ProjectsSwiper() {
             <img src={pro4} alt="" />
           </div>
           <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
-            يوم التأسيس
+            يوم العلم التابع لوزارة الاعلام
           </p>
         </SwiperSlide>
         <SwiperSlide>
@@ -72,23 +72,7 @@ export default function ProjectsSwiper() {
             <img src={pro5} alt="" />
           </div>
           <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
-            يوم البيئه في المركز الوطني للرقابه على الالتزام البيئي
-          </p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="h-80 rounded-3xl overflow-hidden max-md:mx-5 mb-3">
-            <img src={pro6} alt="" />
-          </div>
-          <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
-            يوم التأسيس
-          </p>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="h-80 rounded-3xl overflow-hidden max-md:mx-5 mb-3">
-            <img src={pro7} alt="" />
-          </div>
-          <p className="text-lg text-[#E6A131] text-center px-2 font-[tmedium]">
-            يوم التأسيس
+            جامعة الاميرة نورة{" "}
           </p>
         </SwiperSlide>
       </Swiper>

@@ -1,6 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import swip1 from "../assets/swip1.jpg";
-import swip2 from "../assets/swip2.jpeg";
+import brand1 from "../assets/brand1.jpeg";
+import brand2 from "../assets/brand2.jpeg";
+import brand3 from "../assets/brand3.jpeg";
+import brand4 from "../assets/brand4.jpeg";
+import brand5 from "../assets/brand5.jpeg";
+import brand6 from "../assets/brand6.jpeg";
+import brand7 from "../assets/brand7.jpeg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -32,42 +37,37 @@ export default function ClientsSwiper() {
       >
         <SwiperSlide>
           <div>
-            <img src={swip1} alt="" />
+            <img src={brand1} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <img src={swip2} alt="" />
+            <img src={brand2} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <img src={swip1} alt="" />
+            <img src={brand3} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <img src={swip1} alt="" />
+            <img src={brand4} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <img src={swip1} alt="" />
+            <img src={brand5} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <img src={swip1} alt="" />
+            <img src={brand6} alt="" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div>
-            <img src={swip1} alt="" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div>
-            <img src={swip1} alt="" />
+            <img src={brand7} alt="" />
           </div>
         </SwiperSlide>
       </Swiper>

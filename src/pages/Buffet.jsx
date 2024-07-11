@@ -2,6 +2,11 @@ import CardBuffet from "../components/CardBuffet";
 import card1 from "../assets/card1.jpeg";
 import card2 from "../assets/card2.jpeg";
 import card3 from "../assets/card3.jpeg";
+import silver from "../assets/silver.jpeg";
+import gold from "../assets/gold.jpeg";
+import vip from "../assets/vip.jpeg";
+import west from "../assets/west.jpeg";
+import east from "../assets/east.jpeg";
 
 const Buffet = () => {
   return (
@@ -12,21 +17,21 @@ const Buffet = () => {
         </h1>
         <div className="container flex justify-between items-center max-md:gap-5 gap-10 max-md:flex-col max-md:px-5">
           <CardBuffet
-            img={card1}
+            img={silver}
             title={"قائمة فضيه"}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"
             }
           />
           <CardBuffet
-            img={card2}
+            img={gold}
             title={"قائمة ذهبيه "}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"
             }
           />
           <CardBuffet
-            img={card3}
+            img={vip}
             title={"قائمة vip"}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"
@@ -80,7 +85,7 @@ const Buffet = () => {
         <div className="container flex justify-center items-center max-md:gap-5 gap-10 max-md:flex-col max-md:px-5">
           <CardBuffet
             w={"w-80"}
-            img={card1}
+            img={east}
             title={"افطار شرقي"}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"
@@ -88,8 +93,8 @@ const Buffet = () => {
           />
           <CardBuffet
             w={"w-80"}
-            img={card2}
-            title={"افطار شرقي"}
+            img={west}
+            title={"افطار غربي"}
             dis={
               "إذا كان عندك مناسبة وتبحث عن بوفية مفتوح خارجية في الرياض لــ 40 شخص، فهذه هي الباقة المناسبة لك، وتحتوي على مجموعة متنوعة من الأطباق الشهية والتي تلبي رغبات جميع ضيوفك، وهي تُعتبر أرخص باقة بوفية مفتوح بالرياض"
             }

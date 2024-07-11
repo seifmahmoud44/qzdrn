@@ -5,10 +5,12 @@ const CardBuffet = ({ img, title, dis, w }) => {
         w || "w-1/3"
       } max-md:w-full rounded-3xl overflow-hidden shadow-2xl `}
     >
-      <img src={img} alt="" className="w-full" />
+      <div className="h-60 overflow-hidden w-full">
+        <img src={img} alt="" className=" object-cover  w-full" />
+      </div>
       <div className="p-5 space-y-3">
         <h2 className="text-2xl font-[tmedium] text-center ">{title}</h2>
-        <p className="font-[regular] text-center">{dis}</p>
+        {/* <p className="font-[regular] text-center">{dis}</p> */}
       </div>
       <a
         href="https://wa.me/0545719374"

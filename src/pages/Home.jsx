@@ -53,7 +53,7 @@ const Home = () => {
 
         </div>
       </section> */}
-      <section>
+      <section className="max-md:my-40">
         <div className="container">
           <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#534431] mb-10 ">
             ما الذي نقدمه
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="max-md:my-40">
         <div className="container">
           <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#534431] mb-10 ">
             نفتخر بعملائنا
@@ -85,7 +85,7 @@ const Home = () => {
           <ClientsSwiper />
         </div>
       </section>
-      <section>
+      <section className="max-md:my-40">
         <div className="container">
           <h1 className="text-5xl w-fit m-auto font-[tbold] text-[#534431] mb-10 ">
             من اعمالنا
